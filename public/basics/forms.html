@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../src/styles/index.css">
+  <link rel="stylesheet" href="../../src/styles/basics/forms.css">
+  <title>Tipos de Formulários - Formulários</title>
+</head>
+<body>
+  <main>
+  <h1>Formulários</h1>
+  <h2>Área de cadastro </h2>
+  <form action="./table.html" method="GET">
+    <input type="text" name="user" id="user" placeholder="Digite seu nome">
+    <label>
+      Cor:
+    <input type="color" name="colors" id="colors">
+    </label>
+    <label id="masc">Masculino
+      <input type="radio" name="sexo" id="sexo-m">
+    </label>
+    <label id="fem">Feminino
+      <input type="radio" name="sexo" id="sexo-f">
+    </label>
+    <input type="search" name="query" id="query" placeholder="Faça sua busca">
+    <input type="range" name="range-value" id="ranger">
+    
+    <select name="ordenacao">
+        <option value="selecione">selecione</option>
+        <option value="first">Mais vendidos</option>
+        <option value="recentes" selected>recentes</option>
+    </select>
+    <select name="ordenacao2[]" class="ordenacao2" size="2" multiple>
+      <option value="selecione">selecione</option>
+      <option value="first">Mais vendidos</option>
+      <option value="recentes" selected>recentes</option>
+    </select>
+    <button>Cadastrar</button>
+  </form>
+  <h2>Tipos de formulários</h2>
+  <ul id="forms">
+    <li> &#x1F58A; Text</li>
+    <ul>
+      <li> &#x1F4E7; E-mail</li>
+      <li> &#x1F5DD; Password</li>
+    </ul>
+    <li> &#x1F4FB; Radio</li>
+    <li> &#x2611;  Checkbox</li>
+    <li> &#x1F4EB; Submit</li>
+  </ul>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  background-color:#ddd;
+  
+}
+
+
+ol{
+
+  font-family: 'Yeon Sung', cursive;
+  font-weight: bold;
+}
+
+h1,h2{
+  display: block;
+  font-family: 'Pirata One', cursive;
+  margin-left:130px;
+}
+
+h1{
+  color:rgb(172, 19, 172);
+}
+
+h2{
+  color:rgb(124, 19, 172);
+}
+
+li{
+  
+  font-size: 20px;
+  letter-spacing: 0.1em;
+
+}
+
+#forms li{
+  list-style:none;
+}
+
+gabriel{
+  font-size:10pc;
+  text-align:center;
+  font-family:'Comic Sans MS';
+  background:#922828;
+  border-top-left-radius:10pc;
+  border-top-right-radius:10pc;
+  height:40pc;
+  padding:5pc;
+  color:white;
+}

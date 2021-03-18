@@ -1,0 +1,68 @@
+input, textarea, select, button {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding:8px;
+  margin-bottom:10px;
+  width:400px;
+  outline:0;
+  font-weight:bold;
+  border:1px solid #aaa;
+}
+
+input{
+  border-radius:50px;
+}
+
+button{
+  justify-content:center;
+  align-items:center;
+  border:1px solid #bbb;
+  background-color:transparent;
+  font-weight:bold;
+  color:#bbb;
+}
+
+button:hover{
+  background-color:#bbb;
+  color:black;
+}
+
+input[type="color"]{
+  margin-top:-28px;
+  margin-left:30px;
+  width:60px;
+  height:40px;
+  border:none;
+  background-color:transparent;
+}
+input#ranger{
+  background-color:blue;
+  color:blue;
+}
+
+.ordenacao2{
+  height:70px;
+}
+
+label{
+  font-weight: bold;
+  margin-left:4px;
+  color:#aaa;
+}
+
+
+
+main{
+  border:1px solid #bbb;
+  padding:15px;
+  background-color:white;
+}
+
+input[type="radio"]{
+  margin-top:-15px;
+  margin-bottom:30px;
+  margin-left:-110px;
+}
+
+
