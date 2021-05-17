@@ -24,4 +24,5 @@ Exercicios Práticos do curso de HTML5 e CSS3 da B7web, ministrado pelo professo
     <li>Seletores avançados em CSS3</li>
     <li>Exercicio Prático nth-child - tabela zebra</li>
     <li>Exercicio Prático Transform - Tarja</li>
+    <li>CSS-Grid</li>
 </ol>
